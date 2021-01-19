@@ -1,0 +1,15 @@
+package tech.punklu.myspringboot.demo.error;
+
+/**
+ * 业务异常类
+ */
+public class BusinessException extends RuntimeException {
+
+    public BusinessException() {
+
+    }
+
+    public BusinessException(String message) {
+        super(message);
+    }
+}

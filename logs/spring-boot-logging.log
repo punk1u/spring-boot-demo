@@ -1,0 +1,34 @@
+2019-07-24 21:43:14.476  INFO 17600 --- [main] t.p.m.demo.DemoApplicationTests          : Starting DemoApplicationTests on Punk with PID 17600 (started by lxwpe in C:\学习\Github\springbootdemo)
+2019-07-24 21:43:14.477  INFO 17600 --- [main] t.p.m.demo.DemoApplicationTests          : No active profile set, falling back to default profiles: default
+2019-07-24 21:43:16.960  INFO 17600 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-07-24 21:43:17.775  INFO 17600 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-24 21:43:17.840  INFO 17600 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-24 21:43:17.842  INFO 17600 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-24 21:43:17.971  INFO 17600 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-24 21:43:18.132  INFO 17600 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-24 21:43:19.518  INFO 17600 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-07-24 21:43:19.531  INFO 17600 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-07-24 21:43:19.532  INFO 17600 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-07-24 21:43:19.533  INFO 17600 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-07-24 21:43:19.534  INFO 17600 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-07-24 21:43:19.534  INFO 17600 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'scheduler' initialized from an externally provided properties instance.
+2019-07-24 21:43:19.534  INFO 17600 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-07-24 21:43:19.536  INFO 17600 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@24a3d414
+2019-07-24 21:43:20.127  WARN 17600 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-24 21:43:20.526  INFO 17600 --- [main] org.quartz.core.QuartzScheduler          : Scheduler scheduler_$_NON_CLUSTERED started.
+2019-07-24 21:43:20.539  INFO 17600 --- [main] t.p.m.demo.DemoApplicationTests          : Started DemoApplicationTests in 6.593 seconds (JVM running for 7.336)
+2019-07-24 21:43:20.613  INFO 17600 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-24 21:43:20.770  INFO 17600 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler scheduler_$_NON_CLUSTERED paused.
+2019-07-24 21:43:20.772  INFO 17600 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler scheduler_$_NON_CLUSTERED shutting down.
+2019-07-24 21:43:20.772  INFO 17600 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler scheduler_$_NON_CLUSTERED paused.
+2019-07-24 21:43:20.773  INFO 17600 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler scheduler_$_NON_CLUSTERED shutdown complete.
+2019-07-24 21:43:20.790  INFO 17600 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
